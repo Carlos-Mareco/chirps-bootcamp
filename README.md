@@ -8,7 +8,7 @@ Antes de começar verifique se o Composer e o NPM estão intalados na máquina l
 Para começar, clone o repositório do projeto em sua máquina local e acesse esse mesmo diretório
 
 ```bash
-git clone https://github.com/Carlos-Mareco/chirps-bootcamp.git
+git clone https://github.com/Carlos-Mareco/chirps-bootcamp.git; cd chirps-bootcamp
 ```
 E para executar a configuração inicial, ainda no mesmo diretório do programa, use:
 
@@ -25,13 +25,9 @@ No primeiro terminal:
 ```bash
 php artisan serve
 ```
-No segundo terminal:
+Por fim, no segundo terminal:
 ```bash
 npm run dev
-```
-Por fim, no terceiro terminal:
-```bash
-./mailpit
 ```
 
 Para visualizar o site, abra no navegador o IP do local [127.0.0.1:8000](http://127.0.0.1:8000/)
